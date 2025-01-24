@@ -21,7 +21,7 @@ import {
   subtract,
   multiply,
   divide,
-} from "./(lv.2)[1]기본-산술-연산-함수";
+} from "./(lv.2)[1]기본-산술-연산-함수.js";
 
 // 아래에 add, subtract, multiply, divide 함수를 사용하세요.
 const num1 = 10;
