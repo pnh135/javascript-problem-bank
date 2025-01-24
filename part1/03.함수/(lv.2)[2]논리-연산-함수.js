@@ -10,6 +10,11 @@
  */
 
 function canDrive(age, hasLicense) {
+  if (age>=18 && hasLicense === true) {
+    return true
+  } else {
+    return false 
+  }
   // TODO
 }
 
