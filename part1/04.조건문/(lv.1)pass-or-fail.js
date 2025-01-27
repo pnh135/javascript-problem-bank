@@ -10,7 +10,13 @@
  */
 
 // TODO: passOrFail 함수를 작성하세요.
-function passOrFail() {}
+function passOrFail(a) {
+    if (a>=60) {
+        return "Pass"
+    } else {
+        return "Fail"
+    }
+}
 
 // export를 수정하지 마세요.
 export { passOrFail };

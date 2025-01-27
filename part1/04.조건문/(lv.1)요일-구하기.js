@@ -10,6 +10,25 @@
  * @returns {string} "월", "화", ..., "일" or "Invalid"
  */
 function getDayName(dayNumber) {
+  let results = "";
+  switch (dayNumber) {
+    case 1: 
+      results = "월"
+    case 2:
+      results = "화"
+    case 3:
+      results = "수"
+    case 4:
+      results = "목"
+    case 5:
+      results = "금"
+    case 6:
+      results = "토"
+    case 7:
+      results= "일"
+    default: 
+    results ="Invaild"
+  }
   // TODO
 }
 
