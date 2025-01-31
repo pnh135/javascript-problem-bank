@@ -9,6 +9,7 @@
  * @returns {string[]}
  */
 function getObjectKeys(obj) {
+  Object.keys(obj)
   // TODO
 }
 

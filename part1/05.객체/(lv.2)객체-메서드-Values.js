@@ -10,7 +10,7 @@
  * @returns {string[]}
  */
 function getObjectValues(obj) {
-  // TODO
+  Object.values(obj)// TODO
 }
 
 // export를 수정하지 마세요.

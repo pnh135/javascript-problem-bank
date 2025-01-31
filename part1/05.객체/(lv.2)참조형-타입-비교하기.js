@@ -17,21 +17,31 @@ const person = {
 };
 
 const person2 = {
+  name: person.name,
+  age: person.age,
   // TODO: person.name, person.age를 이용하여 프로퍼티 할당
 };
 
-let isSame;
+let isSame = function () {
+  if (person === person2) {
+    return true
+  }
+};
 // TODO: person === person2 의 결과를 isSame에 할당
 
-let expected;
+let expected= true;
 // TODO: 위 비교의 결과(true 또는 false)에 대한 예상값을 expected에 할당
 
 const person3 = person;
 
-let isSame2;
+let isSame2 = function () {
+  if (person === person3) {
+    return true
+  }
+};
 // TODO: person === person3 의 결과를 isSame2에 할당
 
-let expected2;
+let expected2 = false;
 // TODO: 위 비교의 결과(true 또는 false)에 대한 예상값을 expected2에 할당
 
 // export를 수정하지 마세요.

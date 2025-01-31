@@ -9,7 +9,9 @@
  * @returns {number}
  */
 function countProperties(obj) {
-  // TODO
+  for (const key in object) {
+    return key.length;// TODO
+}
 }
 
 export { countProperties };
